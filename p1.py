@@ -1,5 +1,9 @@
 import json as j
+import os
 
+path = os.getcwd()
+
+print(path)
 d={
   "Name" : "Rani",
   "Designation" : "PHP Developer",
